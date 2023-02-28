@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
+    <link rel="stylesheet" href="./assets/animaciones.css" />
+    <script
+      src="https://kit.fontawesome.com/708db95e78.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>El emporio de la sabana</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./assets/logo sabanita.png" alt="logo" />
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/1828724.png" alt="" />
+        </label>
+        <input id="menu-toggle" type="checkbox" />
+        <ul class="navbar-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#cards">Productos</a></li>
+
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+        <label for="cart-toggle" class="cart-label"
+          ><img
+            src="./assets/kisspng-shopping-cart-supermarket-clip-art-5b090dea1cf7b1.2206099315273200421187.png"
+            alt="Carrito de compras"
+            class="cart-icon"
+          />
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <div class="cart">
+          <h2>Tu carrito</h2>
+          <div class="cart-item">
+            <img
+              src="./assets/algodon egipcio.jpg"
+              alt="producto del carrito"
+            />
+            <div class="item-info">
+              <h3 class="item-tittle">Sabana de algodon egipcio</h3>
+              <p class="item-bid">Valor</p>
+              <span class="item-price">7800$</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img src="./assets/sabanaalgodon.jpg" alt="producto del carrito" />
+            <div class="item-info">
+              <h3 class="item-tittle">Sabana de algodon 1/2 plazas</h3>
+              <p class="item-bid">Valor</p>
+              <span class="item-price">5600$</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img src="./assets/sabanas.jpg" alt="producto del carrito" />
+            <div class="item-info">
+              <h3 class="item-tittle">Sabana lisa 1 plaza economica</h3>
+              <p class="item-bid">Valor</p>
+              <span class="item-price">3200$</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <span class="divider"></span>
+          <div class="cart-total">
+            <p>Total</p>
+            <span>16.600$ </span>
+          </div>
+          <button class="btn-add">Comprar</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-info">
+          <h1>Las mejores sabanas las tenes acá!</h1>
+          <p>
+            <span>
+              En el emporio de la sabana contamos con las mejores telas para que
+              puedas llevarte sabanas de calidad para tu camuchi</span
+            >
+          </p>
+          <div class="botones">
+            <a href="#">Contanos que estas buscando</a>
+            <a href="#">Más info</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/algodon egipcio.jpg" alt="Sabanas" />
+        </div>
+      </section>
+      <section id="text-info">
+        <div class="info">
+          <h3>¿Qué tipos de sabanas son las indicadas para vos?</h3>
+          <p>
+            Contamos desde sabanas de lino, bambú, seda, algodon, microfibra y
+            franela. Desde 200 a 400 hilos, pasá por nuestro local para que
+            puedas probarlas y elegir cual es la mejor para vos!
+          </p>
+        </div>
+      </section>
+      <section id="cards">
+        <h2>Nuestro stock!</h2>
+        <div class="info-cards-container">
+          <div class="info-cards">
+            <img src="./assets/158876-800-auto.webp" alt="icono benefits" />
+            <h3>Para niñes</h3>
+            <p>Sabanas con diseño para los mas chicos de una plaza</p>
+          </div>
+          <div class="info-cards">
+            <img src="./assets/sabanaalgodon.jpg" alt="icono benefits" />
+            <h3>Economicas</h3>
+            <p>sabanas de 1 o 1/2 plazas de 200 hilos al mejor precio</p>
+          </div>
+          <div class="info-cards">
+            <img src="./assets/seda.jpg" alt="icono benefits" />
+            <h3>Seda</h3>
+            <p>Nuestra mejor selección para que duermas comodo y fresco</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contactanos</h2>
+        <div class="contact-container">
+          <div class="contact-izq">
+            <div class="contacto">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+              <p>Lavalle 2474</p>
+            </div>
+            <div class="contacto">
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <p>example@gmail.com</p>
+            </div>
+            <div class="contacto">
+              <i class="fa-solid fa-phone-volume"></i>
+              <p>0810-555-000</p>
+            </div>
+            <div class="contacto">
+              <i class="fa-brands fa-square-facebook"></i>
+              <p>El emporio de la sabana</p>
+            </div>
+          </div>
+
+          <div class="contact-img">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0198933712877!2d-58.404037648423326!3d-34.6036584649076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaecc97523dd%3A0xebf8f36853ca6afe!2sLavalle%202474%2C%20C1052AAD%20CABA!5e0!3m2!1ses-419!2sar!4v1677544716717!5m2!1ses-419!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="footer-links">
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Legales</a></li>
+          <li><a href="#">Soporte</a></li>
+        </ul>
+      </div>
+      <p>Developed by <span>RODRI</span></p>
+    </footer>
+  </body>
+</html>
